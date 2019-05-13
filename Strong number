@@ -1,0 +1,32 @@
+def factorial(number):
+    i=1 
+    r=1 
+    while i<=number:
+        r=r*i 
+        i=i+1 
+    return r 
+        #remove pass and write your logic to find and return the factorial of given number
+
+
+def find_strong_numbers(num_list):
+    sum=0 
+    temp=(num_list)
+    while(num_list):
+        i=1 
+        f=1 
+        r=number%10 
+        while(i<=r):
+            f=f*i 
+            i=i+1 
+            sum=sum+f 
+            number=number//10 
+        if(sum==temp):
+            return strong_num_list
+    
+    
+     #remove pass and write your logic to find and return the list of strong numbers from the given list
+
+
+num_list=[145,375,100,2,10]
+strong_num_list=find_strong_numbers(num_list)
+print(strong_num_list)
